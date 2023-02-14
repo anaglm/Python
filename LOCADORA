@@ -1,0 +1,31 @@
+print ("----------------------------")
+print ("LOCADORA DE VEICULOS")
+print ("1-CARROS")
+print ("2-CAMINHONETE")
+print ("3-UILITARIOS")
+print ("4-VANS")
+print ("----------------------------")
+
+opcao = int(input("ESCOLHA UMA OPCAO"))
+match opcao:
+ case  1:
+  print("MODELOS DISPONIVEIS PRA COMPRA")
+  print("1-HATCH")
+  print("2-SEDAN")
+  print("3-SEDAN DE LUXO")
+  opcao_carros = int (input("ESCOLHA UMA OPÇAO DE CARRO")) 
+  match opcao_carros:
+    case 1:
+     print("QUAL CONTRATO DESEJA ESCOLHER?")   
+     print("1-CONTRATO POR KM/RODADO")
+     print("2-CONTRATO POR ALUGUEL MENSAL KM/LIVRE")
+     print("3-CONTRAO ALUGUEL POR KM/ILIMITADO")
+     opcao_contrato= int(input("INFORME OPÇAO DO CONTRATO:"))
+     match opcao_contrato:
+      case 1:
+        print("VALOR FIXO É 7,00") 
+        valorKM = 7,00 
+        valorTotal = float(input("INFORME QUANTOS KM/DESEJA RODAR:")) *valorKM
+        print("VALOR TOTAL DO CONTRATO É",valorTotal)
+
+     
