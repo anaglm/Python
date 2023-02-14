@@ -27,5 +27,8 @@ match opcao:
         valorKM = 7,00 
         valorTotal = float(input("INFORME QUANTOS KM/DESEJA RODAR:")) *valorKM
         print("VALOR TOTAL DO CONTRATO É",valorTotal)
+      case 2:
+        print("CONTRATO POR ALUGUEL MENSAL KM/LIVRE ESCOLHIDO") 
+        print("") 
 
      
